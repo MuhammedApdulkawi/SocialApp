@@ -1,0 +1,58 @@
+{
+  "name": "social-app",
+  "version": "1.0.0",
+  "description": "A social networking application backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "social",
+    "app",
+    "backend"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.985.0",
+    "@aws-sdk/lib-storage": "^3.985.0",
+    "@aws-sdk/s3-request-presigner": "^3.985.0",
+    "@types/bcrypt": "^6.0.0",
+    "@types/express": "^5.0.6",
+    "axios": "^1.11.0",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "cron": "^4.4.0",
+    "cross-env": "^10.0.0",
+    "dotenv": "^17.2.4",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.1",
+    "google-auth-library": "^10.5.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.3",
+    "mongoose-paginate-v2": "^1.9.1",
+    "morgan": "^1.10.1",
+    "multer": "^2.0.2",
+    "nanoid": "^5.1.5",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^7.0.12",
+    "rate-limit-mongo": "^2.3.2",
+    "socket.io": "^4.8.3",
+    "ts-node": "^10.9.2",
+    "uuid": "^11.1.0",
+    "winston": "^3.11.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/morgan": "^1.9.10",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^20.10.6",
+    "@types/nodemailer": "^7.0.5",
+    "@types/socket.io": "^3.0.1"
+  }
+}

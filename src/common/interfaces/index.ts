@@ -1,0 +1,6 @@
+export * from "./chat.interface"
+export * from "./comment.interface"
+export * from "./post.interface"
+export * from "./react.interface"
+export * from "./response.interface"
+export * from "./user.interface"

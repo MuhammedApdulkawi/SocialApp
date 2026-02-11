@@ -1,0 +1,7 @@
+node_modules
+.env
+dist
+access.log
+tsconfig.json
+nodemon.json
+package-lock.json

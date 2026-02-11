@@ -1,0 +1,6 @@
+export * from "./comment.validator"
+export * from "./friend.validator"
+export * from "./post.validator"
+export * from "./react.validator"
+export * from "./user.auth.validator"
+export * from "./user.profile.validator"
